@@ -1,3 +1,29 @@
+body{
+	background-color: #b3e6ff
+}
+
 #header{
 	background-color: #cccccc;
+	text-align: center;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.content{
+	border-style: solid;
+	background-color: #cccccc;
+}
+
+.text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	font-size: 2.4em;
+	font-weight: bold;
 }
