@@ -1,1 +1,5 @@
-<!--->
+<name>Reverse Image Search App</name>
+	<description>
+	An application which searchs for the image you have selected, with
+	one of the reverse image searching tools
+	</description>
