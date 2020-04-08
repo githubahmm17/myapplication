@@ -13,13 +13,26 @@
 </head>
 
 <body>
-	<div data-role="page">
+	<!-- The Home page -->
+	<div data-role="page" id="Home">
 		<div data-role="header">
 			<h1 id="header">Reverse image search</h1>
+			<a href="#Settings" class="ui-btn ui-icon-gear ui-btn-icon-right">Settings</a>
 		</div>
 		<div data-role="main" class="ui-content">
 			<img src="images/no-image.png" alt="no-image" class="center">
 			<p class="text">No images have been selected</p>
+		</div>
+	</div>
+	
+	<!-- The settings page -->
+	<div data-role="page" id="Settings">
+		<div data-role="header">
+			<h1 id="header">Settings</h1>
+			<a href="#Home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+		</div>
+		<div data-role="main" class="ui-content">
+			<p class="text">Settings</p>
 		</div>
 	</div>
 </body>
