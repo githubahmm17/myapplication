@@ -1,5 +1,8 @@
+
+<widget id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 <name>Reverse Image Search App</name>
 	<description>
 	An application which searchs for the image you have selected, with
 	one of the reverse image searching tools
 	</description>
+</widget>	
