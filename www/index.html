@@ -18,22 +18,26 @@
 <body>
 	<!-- The Home page -->
 	<div data-role="page" id="Home">
-		<div data-role="header">
+		<div data-role="header">	
+
 			<!-- Header -->
 			<h1 id="header">Reverse image search</h1>
-				<!-- Navigation bar -->
-				<div data-role="navbar">
-					<ul>
-						<li><a href="#Home" data-icon="home">Home</a></li>
-						<li><a href="#Settings" data-icon="gear">Settings</a></li>
-					</ul>
-				</div>			
+			
+			<!-- Button for navigation -->
+			<a href="#Settings" class="ui-btn ui-icon-gear ui-btn-icon-notext ui-corner-all ui-btn-right">No text</a>			
+				
 		</div>
 		<!-- Content -->
 		<div data-role="main" class="ui-content">
 			<img src="images/no-image.png" alt="no-image" class="center">
-			<p class="text">No images have been selected</p>
+			<p class="text">No images have been selected</p>			
 		</div>
+		
+		<!-- Add image button -->
+		<div class="addbutton">
+			<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all">No text</a>
+		</div>
+		
 	</div>
 	
 	<!-- The settings page -->
@@ -41,17 +45,14 @@
 		<div data-role="header">
 			<!-- Header -->
 			<h1 id="header">Settings</h1>
-				<!-- Navigation bar -->
-				<div data-role="navbar">
-				<ul>
-					<li><a href="#Home" data-icon="home">Home</a></li>
-					<li><a href="#Settings" data-icon="gear">Settings</a></li>
-				</ul>
-			</div>				
+			
+			<!-- Button for navigation -->
+			<a href="#Home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all">No text</a>
 		</div>
+		
 		<!-- Content -->
 		<div data-role="main" class="ui-content">
-			<p class="text">Settings</p>
+			<p class="text">Settings</p>			
 		</div>
 	</div>
 </body>

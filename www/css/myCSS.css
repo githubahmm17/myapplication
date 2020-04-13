@@ -1,5 +1,22 @@
+.ui-header{
+	height:100px;
+}
+
 #header{	
 	text-align: center;
+	font-size: 1.4em;
+	position: relative;
+	top:20;
+}
+
+.ui-icon-gear{
+	width: 64px !important;
+	height: 64px !important;
+}
+
+.ui-icon-home{
+	width: 64px !important;
+	height: 64px !important;
 }
 
 .center{
@@ -9,9 +26,10 @@
 	width: 20%;
 }
 
-.content{
-	border-style: solid;
-	background-color: #cccccc;
+div.ui-content{
+	position: relative;
+	border: 2px solid black;
+	top: 500;
 }
 
 .text{
@@ -22,3 +40,18 @@
 	font-size: 2.4em;
 	font-weight: bold;
 }
+
+div.addbutton{
+	position: fixed;
+	bottom: 25;
+	right: 25;
+	background-size: 75%;
+}
+
+.ui-icon-plus{
+	background-size: 62px !important;
+	width: 120px !important;
+	height: 120px !important;
+}
+
+
