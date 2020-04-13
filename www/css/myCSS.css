@@ -8,7 +8,7 @@
 	position: relative;
 	top:20;
 }
-
+/*
 .ui-icon-gear{
 	width: 64px !important;
 	height: 64px !important;
@@ -17,7 +17,7 @@
 .ui-icon-home{
 	width: 64px !important;
 	height: 64px !important;
-}
+} */
 
 .center{
 	display: block;
@@ -47,11 +47,11 @@ div.addbutton{
 	right: 25;
 	background-size: 75%;
 }
-
+/*
 .ui-icon-plus{
 	background-size: 62px !important;
 	width: 120px !important;
 	height: 120px !important;
-}
+} */
 
 
